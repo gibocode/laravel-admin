@@ -1,0 +1,17 @@
+{
+    "name": "gibocode/laravel-admin",
+    "description": "A package for admin template of Laravel.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gilbor Camporazo Jr.",
+            "email": "gilborcamporazojr@programmer.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gibocode\\LaravelAdmin\\": "/"
+        }
+    },
+    "minimum-stability": "stable"
+}
