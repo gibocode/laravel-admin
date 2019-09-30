@@ -1,0 +1,17 @@
+.admin-content {
+    padding: 80px 50px 150px;
+}
+.admin-content > .admin-content-header > .admin-content-header-title {
+    font-size: 20px;
+    padding: 10px 0px;
+    display: inline-block;
+}
+.admin-content > .admin-content-header > .admin-content-header-title > .fa {
+    margin-right: 7px;
+}
+.admin-content > .admin-content-header > .admin-content-header-title > span:last-child {
+    position: relative;
+}
+.admin-content > .admin-content-header > .admin-content-header-panel {
+    float: right;
+}

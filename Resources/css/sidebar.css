@@ -1,0 +1,47 @@
+.admin-sidebar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 60px 0px 30px;
+    height: 100%;
+    width: 200px;
+    z-index: 900;
+}
+.admin-sidebar > .admin-sidebar-item-list {
+    margin: 0;
+}
+.admin-sidebar > .admin-sidebar-item-list > .admin-sidebar-item {
+    color: #fff;
+    display: block;
+    padding: 15px 20px 14px;
+    margin: 2px 0px;
+    border: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+.admin-sidebar > .admin-sidebar-item-list > .admin-sidebar-item:focus {
+    outline: none !important;
+}
+.admin-sidebar > .admin-sidebar-item-list > .admin-sidebar-item:hover {
+    background-color: #414141;
+}
+.admin-sidebar > .admin-sidebar-item-list > .admin-sidebar-item > .fa {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.admin-sidebar > .admin-sidebar-item-list > .active {
+    background-color: #494949;
+    cursor: default;
+}
+.admin-sidebar > .admin-sidebar-item-list > .disabled:hover {
+    background-color: #333;
+}
+.admin-sidebar > .admin-sidebar-item-list > .active:hover {
+    background-color: #494949;
+}
+.admin-content {
+    padding: 80px 50px 150px 250px !important;
+}
